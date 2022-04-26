@@ -1,0 +1,20 @@
+{
+  "window.zoomLevel": 1,
+
+  "editor.formatOnSave": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/.hg/store/**": true,
+    "**/vendor/*/**": true
+  },
+
+  // PHP
+  "php.validate.executablePath": "D:\\Dev\\Projetos\\Frameworks\\backend\\php\\php.exe",
+  "phpSniffer.autoDetect": true,
+  "phpSniffer.standard": "PSR12",
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  }
+}
